@@ -44,3 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/bin/su:system/xbin/su \
     vendor/$(VENDOR)/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
     vendor/$(VENDOR)/prebuilt/apk/Superuser.apk:system/app/Superuser.apk
+
+# Torch apk from CyanogenMod
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/apk/Torch.apk:system/app/Torch.apk

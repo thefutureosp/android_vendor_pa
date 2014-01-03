@@ -14,8 +14,7 @@
 
 PRODUCT_PACKAGES += \
     Busybox \
-    Lightbulb
-
+    
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
 #    PRODUCT_COPY_FILES += \
